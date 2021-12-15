@@ -1,0 +1,551 @@
+/* Title */
+.name {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 44px;
+  text-align: center;
+}
+
+/* Nav */
+.menu {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  border: outset;
+  border-color: cornflowerblue;
+  margin: -4px;
+}
+
+.menu a:active {
+  border: inset;
+  border-color: cornflowerblue;
+}
+
+/* Main article */
+.main-article {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  border: 5px groove #7482e8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 750px;
+}
+
+.main-article-image {
+  height: auto;
+  width: 50%;
+  padding: 24px;
+}
+
+.main-article-text {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article-title {
+  margin: 0;
+  font-size: 32px;
+}
+
+.main-article-content {
+  font-size: 17px;
+}
+
+/* New music divider */
+.divide-main-new {
+  margin: 50px;
+  position: relative;
+  top: 50px;
+}
+
+/* New music */
+.new-throwback {
+  display: flex;
+  font-family: "JetBrains Mono", "Time New Roman", sans-serif;
+}
+
+.new-music {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  width: 50%;
+}
+
+.new-music h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.throwback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 50%;
+}
+
+.throwback h1 {
+  font-size: 40px;
+}
+
+.eminem-video {
+  position: relative;
+  bottom: 90px;
+}
+
+.throwback p {
+  font-size: 25px;
+  position: relative;
+  bottom: 90px;
+  left: 5px;
+  line-height: 50px;
+}
+
+.divide-new-throwback-albums {
+  position: relative;
+  bottom: 50px;
+}
+
+/* Albums of the year */
+.albums-list {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+}
+
+/* Feid */
+.best {
+  font-family: "JetBrains Mono", "Time New Roman", sans-serif;
+  font-size: 70px;
+}
+
+.smitty {
+  display: flex;
+}
+
+.feid-photo {
+  height: 800px;
+  width: 50%;
+  margin: 25px;
+}
+
+.feid-lyrics {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 64px;
+  margin: 25px;
+}
+
+.feid-album {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.feid-album-praise {
+  font-size: 25px;
+  width: 50%;
+  margin: 25px;
+}
+
+.feid-cover {
+  display: none;
+}
+
+/* First linear gradient  */
+.blend-one {
+  height: 60px;
+  background-image: linear-gradient(#fff, rgba(23, 65, 120, 1));
+  border: 0;
+  margin: 0;
+}
+
+/* Vince Staples */
+.vince-staples {
+  height: 700px;
+  background-color: #174178;
+  color: #fff3d6;
+  display: flex;
+}
+
+.vince-staples-video {
+  padding: 44px;
+}
+
+.vince-staples-lyrics {
+  font-family: "Work Sans", "Times New Roman", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.vince-staples-album-praise {
+  background-color: #174178;
+  color: #fff3d6;
+  height: 650px;
+  font-family: "Work Sans", "Times New Roman", sans-serif;
+  font-size: 25px;
+  display: flex;
+}
+
+.vince-staples-album-praise p {
+  padding: 50px;
+  line-height: 40px;
+}
+
+.vince-staples-cover {
+  display: none;
+}
+
+/* Second linear gradient */
+.blend-two {
+  height: 60px;
+  background-image: linear-gradient(rgba(23, 65, 120, 1), rgba(178, 139, 232, 1));
+  border: 0;
+  margin: 0;
+  }
+
+/* Joyce Wrice */
+.joyce-wrice {
+  font-family: "Raleway", "Times New Roman", sans-serif;
+  background-color: #b28be8;
+  color: #d6dfff;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.joyce-wrice-video {
+  padding: 24px;
+}
+
+.joyce-wrice-lyrics {
+  font-weight: bold;
+  font-size: 64px;
+  margin: 25px;
+}
+
+.joyce-wrice-album-praise {
+  font-family: "Raleway", "Times New Roman", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #b28be8;
+  color: #d6dfff;
+  height: 575px;
+  display: flex;
+}
+
+.joyce-wrice-album-praise p {
+  padding: 50px;
+  line-height: 55px;
+  position: relative;
+  bottom: 150px;
+}
+
+.joyce-wrice-cover {
+  display: none;
+}
+
+/* Third linear gradient */
+.blend-three {
+  height: 60px;
+  background-image: linear-gradient(rgba(178, 139, 232, 1), #fff);
+  border: 0;
+  margin: 0;
+}
+
+/* News */
+.news-title {
+  font-family: "JetBrains Mono", "Time New Roman", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.news-articles {
+  display: flex;
+}
+
+.news-article-one {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px;
+  border-right: 4px groove #78a6eb;
+}
+
+.news-article-one img {
+  height: 425px;
+  width: 425px;
+  position: relative;
+  left: 100px;
+}
+
+.news-article-one h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.news-article-one p {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 20px;
+}
+
+.news-article-one-link {
+  text-decoration: none;
+}
+
+.news-article-one-link:hover {
+  text-decoration: underline;
+}
+
+.news-article-two {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px;
+}
+
+.news-article-two img {
+  height: auto;
+  width: 100%;
+}
+
+.news-article-two h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.news-article-two p {
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 20px;
+}
+
+.news-article-two-link {
+  text-decoration: none;
+}
+
+.news-article-two-link:hover {
+  text-decoration: underline;
+}
+
+.divide-news-footer {
+  background-image: linear-gradient(#fff, rgba(21, 75, 161, 1));
+  height: 50px;
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: -16px;
+}
+
+/* Footer */
+footer {
+  background-color: #154ba1;
+  height: 130px;
+  color: white;
+}
+
+footer p {
+  padding: 50px;
+}
+
+/* Mobile version */
+@media (max-width: 500px) {
+  /* Nav section */
+  .menu {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu a:hover {
+    border: outset;
+    border-color: cornflowerblue;
+    margin: -4px;
+  }
+
+  .menu a:active {
+    border: inset;
+    border-color: cornflowerblue;
+  }
+  
+  .menu a:last-child {
+    display: none;
+  }
+  
+  /* Main article */
+  .main-article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 700px;
+    overflow: auto;
+  }
+
+  .main-article-image {
+    align-self: center;
+    position: relative;
+    top: 500px;
+  }
+
+  .main-article-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+  }
+
+  .main-article-content {
+    line-height: 30px;
+    position: relative;
+    top: 500px;
+  }
+
+  /* New music */
+  .new-music {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px 25px 25px 25px;
+  }
+
+  .throwback {
+    display: none;
+  }
+
+  .divide-new-throwback-albums {
+    position: relative;
+    top: 25px;
+  }
+
+  /* Albums of the year */
+  .best {
+    font-size: 50px;
+    margin: 25px;
+  }
+
+  /* Feid */
+  .feid-album {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+
+  .smitty {
+    display: none;
+  }
+
+  .feid-video {
+    display: none;
+  }
+
+  .feid-album-praise {
+    width: 100%;
+    overflow: auto;
+    height: 500px;
+  }
+
+  .feid-cover {
+    width: 100%;
+    display: unset;
+  }
+
+  /* Vince Staples */
+  .vince-staples {
+    display: none;
+  }
+
+  .vince-staples-cover {
+    display: unset;
+    align-self: center;
+    width: 60%;
+    position: relative;
+    top: 35px;
+    
+  }
+
+  .vince-staples-album-praise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    overflow: auto;
+  }
+
+  .vince-staples-album-praise img {
+    position: relative;
+    top: 875px;
+  }
+
+  .vince-staples-album-praise p {
+    position: relative;
+    top: 875px;
+  }
+
+  /* Joyce Wrice */
+  .joyce-wrice {
+    display: none;
+  }
+  
+  .joyce-wrice-album-praise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    overflow: auto;
+  }
+
+  .joyce-wrice-album-praise p {
+    font-size: 30px;
+    position: relative;
+    top: 825px;
+  }
+
+  .joyce-wrice-cover {
+    display: unset;
+    align-self: center;
+    width: 70%;
+    position: relative;
+    top: 875px;
+  }
+
+  /* News */
+  .news-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .news-article-one {
+    width: 90%;
+    border-right: none;
+    border-bottom: 4px groove #78a6eb;
+  }
+
+  .news-article-one img {
+    height: 425px;
+    width: 425px;
+    left: 5px;
+  }
+
+  .news-article-one h2 {
+    text-decoration: underline;
+  }
+
+  .news-article-two {
+    width: auto;
+  }
+}

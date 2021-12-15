@@ -1,0 +1,114 @@
+/* Title */
+.name {
+    font-family: "Playfair Display", "Times New Roman", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Nav */
+.menu {
+    font-family: "Playfair Display", "Times New Roman", sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    border: outset;
+    border-color: cornflowerblue;
+    margin: -4px;
+}
+
+.menu a:active {
+    border: inset;
+    border-color: cornflowerblue;
+}
+
+/* Form field */
+div {
+    display: flex;
+}
+
+.title-area {
+    font-family: "Playfair Display", "TImes New Roman", sans-serif;
+    border-style: none;
+    height: 70px;
+    width: 80vw;
+    margin: 25px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+}
+
+.content {
+    font-family: "Playfair Display", "TImes New Roman", sans-serif;
+    height: 80vh;
+    width: 93vw;
+    border-style: none;
+    margin: 25px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 25px;
+
+}
+
+/* Submit button */
+.post {
+    font-family: "Playfair Display", "TImes New Roman", sans-serif;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 35px;
+}
+
+.post:hover {
+    border: outset;
+    border-color: cornflowerblue;
+}
+
+.post:active {
+    border: inset;
+    border-color: cornflowerblue;
+}
+
+/* Pop up on submit */
+.submission-message {
+    background-color: white;
+    border: 4px ridge cornflowerblue;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -250px;
+    z-index: 100;
+    visibility: hidden;
+    font-size: 25px;
+}
+
+/* Close pop-up window */
+.close-button {
+    position: relative;
+    bottom: 100px;
+    left: 425px;
+    border: 4px outset cornflowerblue;
+    background-color: white;
+}
+
+.close-button:active {
+    border: 4px inset cornflowerblue;
+}
